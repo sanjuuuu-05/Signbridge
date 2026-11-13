@@ -1,0 +1,13 @@
+# Python packages for the ml/ folder. Unpinned for now.
+# After the first successful run, do: pip freeze > requirements.txt  (pins the versions you actually used)
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+mediapipe
+tqdm
+# Stage 4 / 7 (tentative, confirm before installing):
+torch
+onnx
+onnxruntime

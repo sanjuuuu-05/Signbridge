@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node
+node_modules/
+dist/
+
+# data: raw video and own recordings are personal data, never commit them
+ml/data/raw/*
+ml/data/own_recordings/*
+ml/data/keypoints/*
+!ml/data/raw/.gitkeep
+!ml/data/own_recordings/.gitkeep
+!ml/data/keypoints/.gitkeep
+
+# database file
+*.db
+*.sqlite
